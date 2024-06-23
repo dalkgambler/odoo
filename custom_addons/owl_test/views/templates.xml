@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<odoo>
+    
+    <template id="owl_test.testsite" name="Test">
+        <t t-call="web.layout">
+            <t t-set="head">
+                <link type="image/x-icon" rel="shortcut icon" href="/web/static/img/favicon.ico"/>
+                <t t-call-assets="owl_test.assets_backend" t-js="false"/>
+            </t>
+        </t>
+    </template>
+    
+    
+</odoo>
